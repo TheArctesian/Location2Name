@@ -1,0 +1,14 @@
+{
+  "name": "Location2Name",
+  "version": "1.0.0",
+  "description": "Converting location to name",
+  "main": "main.ts",
+  "repository": "https://github.com/TheArctesian/Location2Name.git",
+  "author": "TheArctesian <stephen.d.okita@gmail.com>",
+  "license": "GPL-3",
+  "dependencies": {
+    "geolocation": "^0.2.0",
+    "navigator": "^1.0.1",
+    "obsidian": "^0.15.4"
+  }
+}
