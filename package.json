@@ -1,14 +1,14 @@
 {
   "name": "Location2Name",
   "version": "1.0.0",
-  "description": "Converting location to name",
+  "description": "obsidian pkg for getting location name",
   "main": "main.ts",
   "repository": "https://github.com/TheArctesian/Location2Name.git",
-  "author": "TheArctesian <stephen.d.okita@gmail.com>",
+  "author": "theArctesian <stephen.d.okita@gmail.com>",
   "license": "GPL-3",
   "dependencies": {
-    "geolocation": "^0.2.0",
-    "navigator": "^1.0.1",
-    "obsidian": "^0.15.4"
+    "child_process": "^1.0.2",
+    "ip": "^1.1.8",
+    "unirest": "^0.6.0"
   }
 }

@@ -1,9 +1,10 @@
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition((position) =>
-      console.log(position),
-    )
-  }
-}
+//import { execSync} from 'child_process';
 
-getLocation()
+//console.log(execSync('curl ipinfo.io').toString());
+const IP = require('ip);
+let ip = IP.address();
+var geoip = require('geoip-lite');
+
+var geo = geoip.lookup(ip);
+
+console.log(geo)
